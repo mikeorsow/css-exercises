@@ -34,20 +34,19 @@ body {
   flex-direction: column;
 }
 
-.header, 
-.sidebar {
-  padding-left: 16px;
-}
+
 
 .header {
   display: flex;
   align-items: center;
   font-size: 32px;
   font-weight: 900;
+  padding: 0 16px;
 }
 
 .sidebar {
   flex-shrink: 0;
+  padding: 16px;
 }
 
 .container {
@@ -62,7 +61,7 @@ ul {
 }
 
 li {
-  margin-top: 16px;
+  margin-bottom: 16px;
 }
 
 a {
@@ -81,10 +80,10 @@ a {
   display: flex;
   flex-wrap: wrap;
   padding: 32px;
-  gap: 40px;
 }
 
 .card {
   padding: 16px;
+  margin: 16px;
   width: 300px;
 }
